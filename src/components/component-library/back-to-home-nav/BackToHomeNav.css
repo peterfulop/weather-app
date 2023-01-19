@@ -1,0 +1,14 @@
+.back-to-home-link {
+  margin: 1rem;
+}
+
+.back-to-home-link a {
+  color: rgba(255, 255, 255, 0.615);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.back-to-home-link a:hover {
+  color: rgb(255, 255, 255);
+}

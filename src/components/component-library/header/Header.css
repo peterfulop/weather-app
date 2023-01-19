@@ -1,0 +1,21 @@
+header {
+  background-color: rgb(126, 126, 126);
+  padding: 0 1rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h2 {
+  color: white;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}

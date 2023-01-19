@@ -1,0 +1,39 @@
+.weather-forecast-block {
+  background-color: rgba(143, 143, 143, 0.4);
+  margin: 1rem;
+  border-radius: 5px;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.weather-forecast-block__actions {
+  display: flex;
+  justify-content: end;
+}
+
+.forecast-view-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  width: 100%;
+}
+
+.weather-forecast-block__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  width: 100%;
+  color: lightgray;
+}
+
+.forecast-view-action-btn {
+  cursor: pointer;
+}
+
+.weather-forecast-block__chart {
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
+  margin: 10px;
+}

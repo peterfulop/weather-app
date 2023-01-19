@@ -1,0 +1,15 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  color: white;
+}
+
+.back-to-home {
+  margin: 1rem;
+  background-color: rgb(241, 241, 241);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}

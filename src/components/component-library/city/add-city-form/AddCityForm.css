@@ -1,0 +1,29 @@
+.add-city-form {
+  padding: 20px 20px 0 20px;
+}
+
+.add-city-form button {
+  margin: 0 !important;
+}
+
+.add-city-form h4 {
+  margin-bottom: 1rem;
+}
+
+.add-city-form h4,
+.add-city-form small {
+  color: white;
+}
+
+.add-city-form__error-message {
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.add-city-form__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+}

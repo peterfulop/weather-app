@@ -1,0 +1,5 @@
+.weather-forecast-list {
+  display: flex;
+  overflow: auto;
+  padding: 0px 5px 5px 5px;
+}

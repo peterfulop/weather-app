@@ -1,0 +1,139 @@
+.city-list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.city-list h2 {
+  color: white;
+  text-align: center;
+}
+
+.city-item {
+  border-radius: 5px;
+  margin: 5px;
+  height: 100px;
+  background-color: rgba(143, 143, 143, 0.4);
+  cursor: pointer;
+  color: white;
+}
+
+.city-item:hover {
+  background-color: rgba(255, 255, 255, 0.261);
+}
+
+.city-item:hover .before-delete-city-item-btn,
+.city-item:hover .city-item__actions {
+  visibility: visible;
+}
+
+.city-item__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.city-item__info {
+  width: 45%;
+}
+
+.city-item__info_line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city-item__temperature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(253, 253, 253, 0.291);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+}
+
+.city-item__name {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: medium;
+}
+
+.city-item__name small {
+  font-weight: lighter;
+}
+
+.city-item__description {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.city-item__actions {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 0;
+}
+
+.city-item__actions_confirm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  min-height: 100px;
+}
+
+.before-delete-city-item-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  text-align: right;
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.065);
+  color: lightgray;
+}
+
+.before-delete-city-item-btn:hover {
+  background-color: tomato;
+}
+
+.delete-city-item-back-btn {
+  border: none;
+  background: none;
+  padding: 0 2px;
+  width: 50%;
+  color: white;
+  background-color: rgb(72, 72, 72);
+  opacity: 80%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.delete-city-item-confirm-btn {
+  border: none;
+  background: none;
+  padding: 0 2px;
+  width: 50%;
+  color: white;
+  background-color: tomato;
+  opacity: 80%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.delete-city-item-confirm-btn:hover,
+.delete-city-item-back-btn:hover {
+  opacity: 100%;
+}

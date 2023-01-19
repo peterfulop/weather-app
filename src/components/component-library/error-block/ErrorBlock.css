@@ -1,0 +1,14 @@
+.error-block {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  text-align: center;
+}
+
+.error-block small {
+  margin-top: 0.25rem;
+  color: gray;
+}

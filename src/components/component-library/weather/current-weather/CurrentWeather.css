@@ -1,0 +1,128 @@
+.detailed-city-item {
+  background-color: rgba(143, 143, 143, 0.4);
+  margin: 1rem;
+  border-radius: 5px;
+  color: white;
+  height: 250px;
+}
+
+.detailed-city-item__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px -5px 10px;
+}
+
+.detailed-city-item__title span {
+  margin-left: 0.5rem;
+  font-weight: 300;
+}
+
+.detailed-city-item__date {
+  font-weight: 500;
+}
+
+.detailed-city-item__description {
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+.detailed-city-item__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailed-city-item__content_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  width: 50%;
+}
+
+.detailed-temperature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  letter-spacing: -2.5px;
+  font-weight: 300;
+}
+
+.detailed-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  font-weight: 200;
+  max-width: 200px;
+}
+
+.detailed-info span {
+  width: 50%;
+}
+
+.detailed-city-item__actions {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 0;
+}
+
+.detailed-city-item__actions_confirm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  min-height: 250px;
+}
+
+.detailed-city-item-delete__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  text-align: right;
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.065);
+  color: lightgray;
+}
+
+.detailed-city-item-delete-back__btn {
+  border: none;
+  background: none;
+  padding: 0 2px;
+  width: 50%;
+  color: white;
+  background-color: rgb(72, 72, 72);
+  opacity: 80%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.detailed-city-item-delete-confirm__btn {
+  border: none;
+  background: none;
+  padding: 0 2px;
+  width: 50%;
+  color: white;
+  background-color: tomato;
+  opacity: 80%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.detailed-city-item-delete-confirm__btn:hover,
+.detailed-city-item-delete-back__btn:hover {
+  opacity: 100%;
+}
